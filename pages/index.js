@@ -10,7 +10,6 @@ const Home = () => {
         <title>Cecilia Learning Academy -Port Harcourt</title>
         <meta name="description" content="Best Nursery and Primary school in Rumuolumeni" />
         <link rel="icon" href="/favicon.ico" />
-        <script src="https://cdn.tailwindcss.com"></script>
       </Head> 
    
 
