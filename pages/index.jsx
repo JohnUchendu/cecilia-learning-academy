@@ -1,15 +1,16 @@
 import Head from 'next/head'
-import Titles from '../component/Titles'
+import Titles from '../components/Titles'
 import Image from 'next/image'
 
 
 const Home = () => {
   return (
-    <div className='bg-blue-300'>
+    <div className='container bg-orange-400'>
       <Head>
         <title>Cecilia Learning Academy -Port Harcourt</title>
         <meta name="description" content="Best Nursery and Primary school in Rumuolumeni" />
         <link rel="icon" href="/favicon.ico" />
+
       </Head> 
    
 

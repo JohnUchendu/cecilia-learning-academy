@@ -1,11 +1,8 @@
-
-
-
-const Footer = () => {
+function Footer () {
     return (
-        <div className='bg-blue-200 font-mono py-10 '>
+        <div className='bg-orange-200 font-mono py-10'>
             <footer className='container text-[0.69rem] md:text-2xl grid grid-cols-4 gap-1 shadow-sm  py-4 duration-1000 ease-in'>
-              
+
                 <ul className='pl-0 '><p className='font-bold'>ABOUT US</p>
                     <li className='hover:text-blue-700 duration-1000 pb-2 cursor-pointer'>Our Vision</li>
                     <li className='hover:text-blue-700 duration-1000 pb-2 cursor-pointer'>Our Mission</li>
@@ -28,19 +25,19 @@ const Footer = () => {
                     <li className='hover:text-blue-700 duration-1000 pb-2 cursor-pointer'>Home</li>
                 </ul>
                 <div>
-                <div className='grid grid-cols-2 gap-1.5 font-semibold cursor-pointer'>
-                    <p><img className='w-100 h-[4rem] md:h-[5.5rem] rounded-md object-cover'
-                        src='img/cla.jpg' alt='Cecilia Learning Academy -Logo' />
+                    <div className='grid grid-cols-2 gap-1.5 font-semibold cursor-pointer'>
+                        <p><img className='w-100 h-[4rem] md:h-[5.5rem] rounded-md object-cover'
+                            src='img/cla.jpg' alt='Cecilia Learning Academy -Logo' />
 
-                    </p>
-                    <div>
-                        <span
-                            className='block'>CECILIA</span>
-                        <span
-                            className='block'>LEARNING</span>
-                        <span
-                            className='block'>ACADEMY</span>
-                    </div>
+                        </p>
+                        <div>
+                            <span
+                                className='block'>CECILIA</span>
+                            <span
+                                className='block'>LEARNING</span>
+                            <span
+                                className='block'>ACADEMY</span>
+                        </div>
                     </div>
 
 
@@ -61,7 +58,7 @@ const Footer = () => {
         </div >
     )
 }
-                            export default Footer
-                            
-                            
-                            
+export default Footer
+
+
+

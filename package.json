@@ -5,14 +5,12 @@
   "engines": {
     "node": "16.16.0"
   },
-
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT",
-    "heroku-postbuild" : "npm run build",
+    "start": "next start ",
+    "heroku-postbuild": "npm run build",
     "lint": "next lint"
-    
   },
   "dependencies": {
     "next": "12.2.5",
