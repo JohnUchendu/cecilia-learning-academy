@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 function Footer () {
     return (
         <div className='bg-orange-200 font-mono py-10'>
@@ -26,8 +28,8 @@ function Footer () {
                 </ul>
                 <div>
                     <div className='grid grid-cols-2 gap-1.5 font-semibold cursor-pointer'>
-                        <p><img className='w-100 h-[4rem] md:h-[5.5rem] rounded-md object-cover'
-                            src='img/cla.jpg' alt='Cecilia Learning Academy -Logo' />
+                        <p><Image className='w-100 h-[4rem] md:h-[5.5rem] rounded-md object-cover'
+                            src='/img/cla.jpg' alt='Cecilia Learning Academy -Logo' height='100' width='100'/>
 
                         </p>
                         <div>

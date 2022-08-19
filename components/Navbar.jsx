@@ -1,10 +1,12 @@
+import Image from 'next/image'
+
 const Navbar = () => {
   return (
     <div className='mx-3 md:mx-20 font-mono'>
       <nav className='shadow-sm rounded grid grid-cols-2 pt-3 '>
         <div className=' font-semibold cursor-pointer'>
-          <p><img className='w-[3rem] md:w-[100%] h-[4rem] md:h-[2rem] rounded-md object-cover'
-            src='img/cla.jpg' alt='Cecilia Learning Academy -Logo' />
+          <p><Image className='w-[3rem] md:w-[100%] h-[4rem] md:h-[2rem] rounded-md object-cover'
+            src='/img/cla.jpg' alt='Cecilia Learning Academy -Logo' height='100' width='50' />
             
           </p>
           <div className='w-100'>

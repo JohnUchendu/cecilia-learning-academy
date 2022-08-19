@@ -3,7 +3,7 @@ import Titles from '../components/Titles'
 import Image from 'next/image'
 
 
-const Home = () => {
+const Home = () => {  
   return (
     <div className='container bg-orange-400'>
       <Head>
