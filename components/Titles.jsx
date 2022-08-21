@@ -1,7 +1,7 @@
 const Titles = (props) => {
   return (
-  <div className='container grid justify-center'>
-    <span className='font-bold text-xl sm:text-7xl '>{props.title}</span>
+  <div className='grid justify-center'><br />
+    <span className='font-bold text-xl sm:text-5xl '>{props.title}</span>
     </div>
 );
 };

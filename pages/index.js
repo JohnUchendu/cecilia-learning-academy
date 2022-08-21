@@ -1,36 +1,42 @@
 import Head from 'next/head'
+import Classs from '../components/Classs';
 import Titles from '../components/Titles'
-import Image from 'next/image'
 
 
-const Home = () => {  
+
+
+const Home = () => {
   return (
-    <div className='container bg-orange-400'>
+    <>
+
       <Head>
-        <title>Cecilia Learning Academy -Port Harcourt</title>
+        <title>Cecilia Learning Academy Nursery and Primary School -Obio Akpor, Port Harcourt.</title>
         <meta name="description" content="Best Nursery and Primary school in Rumuolumeni" />
         <link rel="icon" href="/favicon.ico" />
-
-      </Head> 
-   
+      </Head>
 
 
-     <Titles title='Welcome Back' />
-      <br />
-      <div className='container font-mono '>
+      <div className='mx-3 md:mx-20 duration-1000 ease-in'>
+        <Titles title='Welcome Back To School' />
+        <br />
 
-        <section className='grid grid-cols-1 md:grid-cols-2 gap-3 justify-items-start justify-center items-center w-100'>
-          <Image className="h-100 w-100 rounded object-cover" src="/img/pupils-wearing-school-uniform-computer-600w-541632628.webp" alt=""
-          height='100' 
-          width='100' />
-          <i className='text-[0.96rem] md:text-4xl max-h-100'>Welcome to back to school, it is always lovely and warm to have us back here,
-            Welcome to back to school, it is always lovely and warm to have us back here,
-            Welcome to back to school, it is always lovely and warm to have us back here, s
-          </i>
+        <section className='h-sm grid grid-cols-1 md:grid-cols-2 gap-3 pb-1 sm:pb-10 justify-items-start justify-center items-center w-100'>
+          <img className="h-[0.2rem]rounded object-cover place-self-end" src="/img/pupils-wearing-school-uniform-computer-600w-541632628.webp"
+            alt="Head Teacher of CLA Nursery and Primary School Rumuolumeni, Obio Akpor."
+          />
+          <blockquote className='text-[0.7rem] md:text-2xl max-h-100 items-center'>Welcome to back to school, it is always lovely and warm to have us back here,
+            some more text..,
+
+          </blockquote><br />
         </section>
 
-        </div>
-        </div>
+      </div>
+        <Titles title='Classes' /><br />
+        <Classs />
+
+
+
+    </>
   )
 }
 export default Home;

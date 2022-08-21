@@ -3,8 +3,8 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className='font-mono bg-blue-200'>
-      <Layout >
+    <div className='font-mono bg-blue-300 text-neutral-700'>
+      <Layout>
         <Component {...pageProps} />
       </Layout>
     </div>
